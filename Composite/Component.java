@@ -11,8 +11,6 @@ public abstract class Component {
 
     public abstract void add(Component component);
     public abstract void remove(Component component);
-
-    // Unified print method for XML and structure printing
     public abstract void printStructure(String indent);
     public abstract void printXML(String indent);
 }
