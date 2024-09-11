@@ -6,11 +6,11 @@ public class Main {
 
         WeatherObserver observer1 = new ConcreteObserver("Observer 1");
         WeatherObserver observer2 = new ConcreteObserver("Observer 2");
-        WeatherObserver observer3 = new ConcreteObserver("Observer 3");
+        WeatherObserver observer4 = new ConcreteObserver("Observer 3");
 
         weatherStation.addObserver(observer1);
         weatherStation.addObserver(observer2);
-        weatherStation.addObserver(observer3);
+        weatherStation.addObserver(observer4);
 
         Thread weatherThread = new Thread(weatherStation);
         weatherThread.start();
