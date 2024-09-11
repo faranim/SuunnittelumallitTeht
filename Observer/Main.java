@@ -2,7 +2,7 @@ package Observer;
 
 public class Main {
     public static void main(String[] args) {
-        WeatherStation weatherStation = new WeatherStation("Station 1", -20, 40);
+        WeatherStation weatherStation = new WeatherStation("Station 1", -10, 35);
 
         WeatherObserver observer1 = new ConcreteObserver("Observer 1");
         WeatherObserver observer2 = new ConcreteObserver("Observer 2");
