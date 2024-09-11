@@ -1,4 +1,5 @@
 package Observer;
 
-public class WeatherObserver {
+interface WeatherObserver {
+    void update(int temperature);
 }
