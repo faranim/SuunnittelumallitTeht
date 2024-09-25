@@ -20,9 +20,5 @@ public class Main {
         System.out.println("CheckBoxes: ");
         checkBoxA.display();
         checkBoxB.display();
-
-
-
-
     }
 }
