@@ -1,7 +1,7 @@
 package ChainOfResponsibility;
 
 // GeneralFeedbackHandler.java
-public class GeneralFeedbackHandler extends Handler {
+public class FeedbackHandler extends Handler {
     @Override
     public void handle(Message message) {
         if (canHandle(message)) {

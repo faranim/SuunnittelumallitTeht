@@ -1,7 +1,7 @@
 package ChainOfResponsibility;
 
 // DevelopmentSuggestionHandler.java
-public class DevelopmentSuggestionHandler extends Handler {
+public class DevSuggestionHandler extends Handler {
     @Override
     public void handle(Message message) {
         if (canHandle(message)) {

@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
         // Create handlers
         Handler compensationHandler = new CompensationHandler();
-        Handler contactRequestHandler = new ContactRequestHandler();
-        Handler developmentSuggestionHandler = new DevelopmentSuggestionHandler();
-        Handler generalFeedbackHandler = new GeneralFeedbackHandler();
+        Handler contactRequestHandler = new ContactReqestHandler();
+        Handler developmentSuggestionHandler = new DevSuggestionHandler();
+        Handler generalFeedbackHandler = new FeedbackHandler();
 
         // Chain handlers
         compensationHandler.setNext(contactRequestHandler);

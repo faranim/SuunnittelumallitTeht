@@ -1,7 +1,7 @@
 package ChainOfResponsibility;
 
 // ContactRequestHandler.java
-public class ContactRequestHandler extends Handler {
+public class ContactReqestHandler extends Handler {
     @Override
     public void handle(Message message) {
         if (canHandle(message)) {
