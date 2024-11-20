@@ -1,9 +1,10 @@
 package Bridge;
 
+
 public class SmartTv extends Tv {
     private String browser;
 
-    // Modify this method to accept a URL as a parameter
+    // Accept a URL string in this method
     public void browserInternet(String url) {
         this.browser = url;  // Store the URL in the browser field
         System.out.println("Browsing: " + url);  // Output the URL being accessed
