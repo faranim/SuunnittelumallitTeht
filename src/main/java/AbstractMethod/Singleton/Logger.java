@@ -1,4 +1,4 @@
-package Singleton;
+package AbstractMethod.Singleton;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
