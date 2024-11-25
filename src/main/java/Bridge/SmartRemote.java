@@ -1,5 +1,8 @@
 package Bridge;
 
+import Bridge.Device;
+import Bridge.SmartTv;
+
 public class SmartRemote extends AdvancedRemote {
 
     public SmartRemote(Device device) {
@@ -10,12 +13,10 @@ public class SmartRemote extends AdvancedRemote {
         System.out.println("Voice control command: " + command);
         if (command.equalsIgnoreCase("browse")) {
             if (device instanceof SmartTv) {
-                // Pass a URL when calling browserInternet
-                ((SmartTv) device).browserInternet("http://example.com");
+                ((SmartTv) device).browseInternet("http://example.com");
             } else {
                 System.out.println("This device does not support browsing.");
             }
         }
-        // Add more voice commands here if necessary
     }
 }
